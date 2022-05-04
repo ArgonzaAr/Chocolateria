@@ -27,6 +27,10 @@
                 <form action="../Chocolateria/controllers/Insert_DB.php" method="post">
                     <table style="margin: 0 auto;">
                         <tr>
+                            <td align="center">ID del producto:</td>
+                            <td><input type="text" name="id"></td>
+                        </tr>
+                        <tr>
                             <td align="center">Tipo de chocolate:</td>
                             <td><input type="text" name="tipo"></td>
                         </tr>
@@ -63,6 +67,39 @@
                 </form>
             </td>
         </tr>
+
+        <!-- FUNCION UPDATE -->
+
+        <tr>
+            <td class="td" align="left">Actualizar Chocolate</td>
+            <td>    
+                <form action="../Chocolateria/controllers/Update_DB.php" method="post">
+                    <table style="margin: 0 auto;">
+                    <tr>
+                            <td align="center">ID del producto:</td>
+                            <td><input type="text" name="id"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Tipo de chocolate:</td>
+                            <td><input type="text" name="tipo"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Presentación [3, 9, 12 o 24]:</td>
+                             <td><input type="text" name="presentacion"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Evento especial:</td>
+                            <td><input type="text" name="evento_especial"></td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="2">
+                                <input type="submit" value="Modificar registro" class="btn">
+                            </td> 
+                        </tr> 
+                    </table>
+                </form>
+            </td>
+        </tr>
                            
     <!-- FUNCION DELETE -->
    
@@ -72,8 +109,8 @@
                 <form action="../Chocolateria/controllers/Delete_DB.php" method="post">
                     <table style="margin: 0 auto;">
                         <tr>
-                            <td align="center">Tipo de chocolate:</td>
-                            <td><input type="text" name="tipo"></td>
+                            <td align="center">ID del producto:</td>
+                            <td><input type="text" name="id"></td>
                         </tr>                
                         <tr>
                             <td align="center" colspan="2">
