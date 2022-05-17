@@ -1,5 +1,5 @@
 <?php
-    include '../../../config/Conex_DB.php';
+    include '../../../../config/Conex_DB.php';
     $db = new Database();
 
     $result = $db->query("SELECT * FROM productos_finales");

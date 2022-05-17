@@ -9,7 +9,7 @@
 <style>
     .td {
         color:#000;
-        font-size:100px;
+        font-size:50px;
         padding:17px;
         font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
     }
@@ -24,7 +24,7 @@
         <tr>
             <td class="td" align="left">Agregar Chocolates</td>
             <td>
-                <form action="./app/Http/Controllers/Insert_DB.php" method="post">
+                <form action="./app/Http/Controllers/productos_terminados/Insert_DB.php" method="post">
                     <table style="margin: 0 auto;">
                         <tr>
                             <td align="center">ID del producto:</td>
@@ -56,7 +56,7 @@
         <tr>
             <td class="td" align="left">Consultar Registros</td>
             <td>
-                <form action="./app/Http/Controllers/Select_DB.php" method="post">
+                <form action="./app/Http/Controllers/productos_terminados/Select_DB.php" method="post">
                     <table style="margin: 0 auto;">
                         <tr>
                             <td align="center" colspan="2">
@@ -73,7 +73,7 @@
         <tr>
             <td class="td" align="left">Actualizar Chocolate</td>
             <td>    
-                <form action="./app/Http/Controllers/Update_DB.php" method="post">
+                <form action="./app/Http/Controllers/productos_terminados/Update_DB.php" method="post">
                     <table style="margin: 0 auto;">
                     <tr>
                             <td align="center">ID del producto:</td>
@@ -106,7 +106,7 @@
         <tr>
             <td class="td" align="left">Borrar Chocolate</td>
             <td>    
-                <form action="./app/Http/Controllers/Delete_DB.php" method="post">
+                <form action="./app/Http/Controllers/productos_terminados/Delete_DB.php" method="post">
                     <table style="margin: 0 auto;">
                         <tr>
                             <td align="center">ID del producto:</td>
